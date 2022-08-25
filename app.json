@@ -15,19 +15,19 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "7626510"
+            "value": "9244035"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "ca991bfa07a6ac45e6d5f374c84ab05c"
+            "value": "66c62a85cfbf593a991ea680223a0549"
         },
         "CUSTOM_FOOTER": {
             "description": "Enter your Custom Footer",
-            "value": "eg. JOIN MY CHANNEL"
+            "value": "🔗 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗟𝗜𝗡𝗞 ☞ @masala_moviez"
         },
         "MDISK_TOKEN": {
             "description": "Put your MDisk API key here",
-            "value": "j219piqFPsQBhba52F4l"
+            "value": "wao4REW9SCFmXzyxYyJq"
         }
     },
     "addons": [],
