@@ -1,6 +1,6 @@
 pyrogram==1.4.16
 tgcrypto
-aiohttp==3.8.2
+aiohttp==3.8.1
 requests
 bs4
 tgcrypto
