@@ -12,11 +12,11 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
-API_ID = environ.get('API_ID')
-API_HASH = environ.get('API_HASH')
-BOT_TOKEN = environ.get('BOT_TOKEN')
-CHANNEL = environ.get('CUSTOM_FOOTER')
-MDISK_TOKEN = environ.get('MDISK_TOKEN')
+API_ID = 9244035
+API_HASH = '66c62a85cfbf593a991ea680223a0549'
+BOT_TOKEN = '5616078400:AAEh4j9PyNc-xlhKDq-Z_krZg6o5l1pCE0o'
+CHANNEL = '@cinemacollections'
+MDISK_TOKEN ='JxqOU07iKDWgg2pTtHCR'
 bot = Client('Doodstream bot',
              api_id=API_ID,
              api_hash=API_HASH,
@@ -60,41 +60,6 @@ async def Doodstream_uploader(bot, message):
     except Exception as e:
         await message.reply(f'Error: {e}', quote=True)
 
-
-'''async def get_ptitle(url):
-    if ('bit' in url ):
-      url = urlopen(url).geturl()
-      
-      
-    html_text = requests.get(url).text
-    soup = BeautifulSoup(html_text, 'html.parser')
-    for title in soup.find_all('title'):
-        pass
-    title = list(title.get_text())
-    title = title[8:]
-    str = 't.me/' + CHANNEL + ' '
-    for i in title:
-        str = str + i
-    lst = list(html_text.split(","))
-    c = 0
-    for i in lst:
-        if ("""/e/""" in i):
-            found = lst[c]
-            break
-        c += 1
-
-    # Doodstream.com link
-    Doodstream_video_id = list(found.split(":"))
-    video_id = Doodstream_video_id[2]
-    video_id = list(video_id.split(","))
-    v_id = video_id[0]
-    #v_len = len(v_id)
-    #v_id = v_id[1:v_len - 2]
-
-    v_url = 'https://vidzoop.blogspot.com/p/share-video.html?vid=' + v_id + '&m=1'
-    v_url = url
-    res = [str, v_url]
-    return res'''
 
 
 async def Doodstream_up(link):
