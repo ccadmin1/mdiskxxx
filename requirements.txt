@@ -1,9 +1,7 @@
 pyrogram==1.4.16
-tgcrypto
+tgcrypto==1.2.5
 aiohttp==3.8.1
-requests
-bs4
-tgcrypto
-pyshorteners
-#doodstream
-unshortenit
+requests==2.28.1
+bs4==0.0.1
+pyshorteners==1.0.1
+
